@@ -24,8 +24,26 @@
             font-family: 'Homemade Apple';
             padding: 10px;
         }
-      
-    
+
+        .navbar {
+            font-family: 'Kaushan Script';
+        }
+
+        .footer {
+            background-color: #17a2b8;
+            color: #fff;
+            position: bottom-fixed;
+            font-family: "Homemade Apple";
+            padding: 00px;
+
+            border-top: 8px solid #7777;
+            clear: both;
+            flex-shrink: 0;
+            text-align: left;
+        }
+        .footer a:hover {
+            color: white;
+        }
     </style>
     <title>Tanya Odegova</title>
 </head>
@@ -39,7 +57,7 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">About
                     <span class="sr-only">(current)</span>
                 </a>
@@ -47,7 +65,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
             </li>
     </div>
@@ -65,7 +83,7 @@
                 <!--Form with header-->
 
                 <form action="mail.php" method="post">
-                    <div class="card border-primary rounded-0">
+                    <div class="card rounded-0">
                         <div class="card-header p-0">
                             <div class="bg-info text-white text-center py-2">
                                 <h3>Contact</h3>
@@ -134,46 +152,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 </body>
-
 <!-- Footer -->
-
-<footer class="page-footer font-small fixed-bottom">
-    <!-- Footer Elements -->
+<footer class="footer">
     <div class="container">
-        <!-- Grid row-->
         <div class="row">
-
-            <div class="col-sm-12 text-center">
-            
-                    <!--Linkedin -->
-                    <a class="li-ic" a href="https://www.linkedin.com/in/todegova">
-                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <div class="footer-copyright text-center py-3">
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+                <div>
+                    <a href="https://www.linkedin.com/in/todegova">
+                        <i class="fa fa-linkedin"></i>
                     </a>
-                    <!--Instagram-->
-                    <a class="ins-ic" a href="https://www.instagram.com/tanya____o/?hl=en">
-                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    <a href="https://www.pinterest.com/odegovat/">
+                        <i class="fa fa-pinterest"></i>
                     </a>
-                    <!--Pinterest-->
-                    <a class="pin-ic" a href="https://tr.pinterest.com/odegovat/">
-                        <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    <a href="https://www.instagram.com/tanya____o/?hl=en">
+                        <i class="fa fa-instagram"></i>
                     </a>
                 </div>
             </div>
-           
-        </div>
-      
-
-    </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center">© 2019 Copyright <p><a href="https://www.linkedin.com/in/todegova">Website by TanyaO</a></p>
-    </div>
-    <!-- Copyright -->
-
+            <div class="footer-copyright text-center py-3"> © 2019 Copyright
+            </div>
 </footer>
-
-</div>
-<!-- Footer -->
 
 </html>
